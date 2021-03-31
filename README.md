@@ -3,7 +3,8 @@
 ## Table of Contents
 1. [Control Widgets](#controlwidgets)  
 	1.1 [Switch 1](#switch1)  
-	1.2 [Slider](#slider)  
+	1.2 [Toggle Button 1](#togglebutton1)  
+	1.3 [Slider](#slider)  
 2. [Latest Value Widgets](#latestvaluewidgets)  
    2.1 [Fluid Level 1](#fluidlevel1)  	
 
@@ -18,9 +19,16 @@
 ![image info](./pictures/switch11.png)
 ![image info](./pictures/switch12.png) 
 
+<div id="togglebutton1"/>
+
+### 1.2 Toggle Button 1
+
+![image info](./pictures/togglebutton11.png)
+![image info](./pictures/togglebutton12.png) 
+
 <div id="slider"/>
 
-### 1.2 Slider
+### 1.3 Slider
 
 ![image info](./pictures/slider1.png)
 ![image info](./pictures/slider2.png) 
