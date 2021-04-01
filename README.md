@@ -6,7 +6,8 @@
 	1.2 [Toggle Button 1](#togglebutton1)  
 	1.3 [Slider](#slider)  
 2. [Latest Value Widgets](#latestvaluewidgets)  
-   2.1 [Fluid Level 1](#fluidlevel1)  	
+   2.1 [Fluid Level 1](#fluidlevel1)  
+   2.2 [Light Bulb 1](#lightbulb1)  	
 
 <div id="controlwidgets"/>
 
@@ -41,4 +42,10 @@
 
 ### 2.1 Fluid Level 1
 
-![image info](./pictures/fluidlevel11.png)
+![image info](./pictures/fluidlevel11.png)  
+
+<div id="lightbulb1"/>
+
+### 2.2 Light Bulb 1
+
+![image info](./pictures/lightbulb11.png)  
