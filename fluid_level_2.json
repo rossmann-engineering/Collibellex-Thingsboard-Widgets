@@ -1,0 +1,25 @@
+{
+  "alias": "fluid_level_2",
+  "name": "fluid level 2",
+  "descriptor": {
+    "type": "latest",
+    "sizeX": 7.5,
+    "sizeY": 6.5,
+    "resources": [
+      {
+        "url": "//sre-solutions.com/static/tb-widget/industrial.css"
+      },
+      {
+        "url": "//sre-solutions.com/static/tb-widget/industrial.js"
+      }
+    ],
+    "templateHtml": "<div class=\"industrial tank size two\" >\r\n    <span class=\"ticks\" data-amount=\"4\" data-scale-freq=\"1\" data-height=\"4\"></span>\r\n    <div class=\"space\"></div>\r\n    <div class=\"meter\"></div>\r\n</div>",
+    "templateCss": ".industrial\n{\n    top: 50%;\n     transform: translate(-50%, -50%);\n    position: absolute;\n  left: 50%;\n}",
+    "controllerScript": "self.onInit = function() {\n    var settings = self.ctx.settings;\n     \n    $('.industrial', self.ctx.$container).each(function() {\n                $(this).industrial({\n                    default_value: true,\n                    low: settings.minValue, \n                    high: settings.maxValue,\n                    tick_scale: true, \n                    tick_scale_frequency: 1,\n                    tick_amount: settings.numberOfTicks,\n                    tick_height: 2,\n                    digit_amount: 4   \n            });\n    });\n}\n\nself.onDataUpdated = function() {\n    var settings = self.ctx.settings;\n    var value = 0;\n    \n    if (self.ctx.defaultSubscription.data.length > 0)\n    {\n        \n        if (self.ctx.defaultSubscription.data[0].data.length > 0)\n        value = self.ctx.defaultSubscription.data[0].data[0][1];\n\n      \n        }\n    \n    \n  $('.industrial', self.ctx.$container).each(function() {\n            $(this).industrial(parseFloat(value));\n  });\n    \n    \n    function isNumber(n) {\n        return !isNaN(parseFloat(n)) && isFinite(n);\n    }\n}\n\nself.onResize = function() {\n  \n}\n\nself.onDestroy = function() {\n}\n",
+    "settingsSchema": "{\n    \"schema\": {\n        \"type\": \"object\",\n        \"title\": \"Settings\",\n        \"properties\": {\n            \"maxValue\": {\n                \"title\": \"Maximum Value\",\n                \"type\": \"number\",\n                \"default\": 100\n            },\n            \"minValue\": {\n                \"title\": \"Minimum Value\",\n                \"type\": \"number\",\n                \"default\": 0\n            },\n            \"numberOfTicks\": {\n                \"title\": \"Unit\",\n                \"type\": \"number\",\n                \"default\": 0\n            }\n        },\n        \"required\": [\"maxValue\", \"minValue\", \"numberOfTicks\"]\n    },\n    \"form\": [\n        \"maxValue\",\n        \"minValue\",\n        \"numberOfTicks\"\n        \n        \n            ]\n        \n    \n}",
+    "dataKeySettingsSchema": "{}\n",
+    "defaultConfig": "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"entityAliasId\":null,\"filterId\":null,\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = Math.random() * 100;\\n\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\",\"units\":null,\"decimals\":null,\"usePostProcessing\":null,\"postFuncBody\":null}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"fluid level 2\"}"
+  },
+  "image": null,
+  "description": null
+}
