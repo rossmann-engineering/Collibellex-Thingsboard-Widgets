@@ -7,7 +7,8 @@
 	1.3 [Slider](#slider)  
 2. [Latest Value Widgets](#latestvaluewidgets)  
    2.1 [Fluid Level 1](#fluidlevel1)  
-   2.2 [Light Bulb 1](#lightbulb1)  	
+   2.2 [Fluid Level 2](#fluidlevel2)  
+   2.3 [Light Bulb 1](#lightbulb1)  	
 
 <div id="controlwidgets"/>
 
@@ -44,8 +45,14 @@
 
 ![image info](./pictures/fluidlevel11.png)  
 
+<div id="fluidlevel2"/>
+
+### 2.2 Fluid Level 2
+
+![image info](./pictures/fluidlevel21.png)  
+
 <div id="lightbulb1"/>
 
-### 2.2 Light Bulb 1
+### 2.3 Light Bulb 1
 
 ![image info](./pictures/lightbulb11.png)  
