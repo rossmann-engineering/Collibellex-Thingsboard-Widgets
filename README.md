@@ -6,6 +6,7 @@
 	1.2 [Toggle Button 1](#togglebutton1)  
 	1.3 [Slider](#slider)  
 	1.4 [Thermostat 1](#thermostat1)  
+	1.5 [Thermostat 2](#thermostat2)  
 2. [Latest Value Widgets](#latestvaluewidgets)  
    2.1 [Fluid Level 1](#fluidlevel1)  
    2.2 [Fluid Level 2](#fluidlevel2)  
@@ -73,6 +74,44 @@ Step Width, can be 0.1 or 1 - Default: 1
    
 
 ![image info](./pictures/thermostat11.png)
+
+<div id="thermostat2"/>
+
+### 1.5 Thermostat 2
+
+Widget type: Control Widget
+
+The Thermostat Wiget allows the graphical adjustment of a value using the two arrow keys. The values will be syncronized with the device at startup and sends the current values on change. The min and max as well as the Step-width can be adjusted.
+
+### Parameters:
+
+
+**Change request Method**
+
+SetValue RPC Method - Default: setValue
+
+**RPC request timeout**
+
+Max. Response time for a RPC request. - Default: 500ms
+
+**Status request Method**
+
+Get Value RPC Method - Default: getValue
+
+**Minimum Value**
+
+Min. Value - Default: 0
+   
+**Maximum Value**
+
+Max. Value - Default: 100   
+
+**Step Width**
+
+Step Width, can be 0.1 or 1 - Default: 1   
+   
+
+![image info](./pictures/thermostat21.png)
 
 <div id="latestvaluewidgets"/>
 
