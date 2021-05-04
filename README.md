@@ -42,9 +42,14 @@
 
 Widget type: Control Widget
 
-The Thermostat Wiget allows the graphical adjustment of a value using the two arrow keys. The values will be syncronized with the device at startup and sends the current values on change. The min and max values canot be changed. The minimum Value is 2°C and the maximum Value is 34°C.
+The Thermostat Wiget allows the graphical adjustment of a value using the two arrow keys. The values will be syncronized with the device at startup and sends the current values on change. The min and max as well as the Step-width can be adjusted.
 
 ### Parameters:
+
+
+**Change request Method**
+
+SetValue RPC Method - Default: setValue
 
 **RPC request timeout**
 
@@ -54,11 +59,17 @@ Max. Response time for a RPC request. - Default: 500ms
 
 Get Value RPC Method - Default: getValue
 
-**Change request Method**
+**Minimum Value**
 
-SetValue RPC Method - Default: setValue
+Min. Value - Default: 0
    
-   
+**Maximum Value**
+
+Max. Value - Default: 100   
+
+**Step Width**
+
+Step Width, can be 0.1 or 1 - Default: 1   
    
 
 ![image info](./pictures/thermostat11.png)
