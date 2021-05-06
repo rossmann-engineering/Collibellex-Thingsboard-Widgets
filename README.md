@@ -7,10 +7,12 @@
 	1.3 [Slider](#slider)  
 	1.4 [Thermostat 1](#thermostat1)  
 	1.5 [Thermostat 2](#thermostat2)  
+	1.6 [Round Slider 1](#roundslider1) 
 2. [Latest Value Widgets](#latestvaluewidgets)  
    2.1 [Fluid Level 1](#fluidlevel1)  
    2.2 [Fluid Level 2](#fluidlevel2)  
    2.3 [Light Bulb 1](#lightbulb1)  	
+   2.4 [Gauge 1](#gauge1)  	
 
 <div id="controlwidgets"/>
 
@@ -113,6 +115,12 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 ![image info](./pictures/thermostat21.png)
 
+<div id="roundslider"/>
+
+### 1.6 Round Slider
+
+![image info](./pictures/roundslider11.png)
+
 <div id="latestvaluewidgets"/>
 
 ## 2. Latest Value Widgets
@@ -134,3 +142,9 @@ Step Width, can be 0.1 or 1 - Default: 1
 ### 2.3 Light Bulb 1
 
 ![image info](./pictures/lightbulb11.png)  
+
+<div id="gauge1"/>
+
+### 2.4 Gauge 1
+
+![image info](./pictures/gauge11.png)  
