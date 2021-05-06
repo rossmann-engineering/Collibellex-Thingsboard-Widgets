@@ -11,8 +11,8 @@
 2. [Latest Value Widgets](#latestvaluewidgets)  
    2.1 [Fluid Level 1](#fluidlevel1)  
    2.2 [Fluid Level 2](#fluidlevel2)  
-   2.3 [Light Bulb 1](#lightbulb1)  	
-   2.4 [Gauge 1](#gauge1)  	
+   2.3 [Light Bulb 1](#lightbulb1)   	
+   2.4 [Gauge 1](#gauge1)  
 
 <div id="controlwidgets"/>
 
