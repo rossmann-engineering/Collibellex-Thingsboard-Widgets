@@ -11,9 +11,11 @@
 2. [Latest Value Widgets](#latestvaluewidgets)  
    2.1 [Fluid Level 1](#fluidlevel1)  
    2.2 [Fluid Level 2](#fluidlevel2)  
-   2.3 [Light Bulb 1](#lightbulb1)  	
+   2.3 [Light Bulb 1](#lightbulb1)  
    2.4 [Gauge 1](#gauge1)  
-
+3. [Static Widgets](#staticwidgets)  
+  3.1 [Change Dashboard State 1](#changedashboardstate1)  
+ 
 <div id="controlwidgets"/>
 
 ## 1. Control Widgets
@@ -149,3 +151,14 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 ![image info](./pictures/gauge11.png)  
 ![image info](./pictures/gauge12.png)  
+
+
+<div id="staticwidgets"/>
+
+## 3. Static Widgets
+
+<div id="changedashboardstate1"/>
+
+### 3.1 Change Dashboard State 1
+
+![image info](./pictures/changedashboardstate11.png)  
