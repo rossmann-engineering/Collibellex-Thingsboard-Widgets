@@ -1,49 +1,75 @@
 # "Thingsboard Widget Library" Documentation
 
-## Table of Contents
-1. [Control Widgets](#controlwidgets)  
-	1.1 [Switch 1](#switch1)  
-	1.2 [Toggle Button 1](#togglebutton1)  
-	1.3 [Slider](#slider)  
-	1.4 [Thermostat 1](#thermostat1)  
-	1.5 [Thermostat 2](#thermostat2)  
-	1.6 [Round Slider 1](#roundslider1) 
-2. [Latest Value Widgets](#latestvaluewidgets)  
-   2.1 [Fluid Level 1](#fluidlevel1)  
-   2.2 [Fluid Level 2](#fluidlevel2)  
-   2.3 [Light Bulb 1](#lightbulb1)  
-   2.4 [Gauge 1](#gauge1)  
-3. [Static Widgets](#staticwidgets)  
-  3.1 [Change Dashboard State 1](#changedashboardstate1)  
+## Table of Contents 
+1. [General](#general)  
+   1.1 [Requirements](#requirements)  
+   1.2 [Installation](#installation)  
+2. [Control Widgets](#controlwidgets)  
+	2.1 [Switch 1](#switch1)  
+	2.2 [Toggle Button 1](#togglebutton1)  
+	2.3 [Slider](#slider)  
+	2.4 [Thermostat 1](#thermostat1)  
+	2.5 [Thermostat 2](#thermostat2)  
+	2.6 [Round Slider 1](#roundslider1) 
+3. [Latest Value Widgets](#latestvaluewidgets)  
+   3.1 [Fluid Level 1](#fluidlevel1)  
+   3.2 [Fluid Level 2](#fluidlevel2)  
+   3.3 [Light Bulb 1](#lightbulb1)  
+   3.4 [Gauge 1](#gauge1)  
+4. [Static Widgets](#staticwidgets)  
+  4.1 [Change Dashboard State 1](#changedashboardstate1)  
+
+<div id="general"/>
+
+## 1. General
+
+<div id="requirements"/>
+
+### 1.1 Requirements
+
+The widget library requires Thingsboard version greater than 3.0. This can be used for Thingsboard CE, Thinsgsboard PE or Thingsboard.cloud.
+
+<div id="installation"/>
+
+### 1.2 Installation
+
+To install a widget from the Widget library, please login to your Thingsboard installation, or your Thingsboard.cloud account. Then open the Widget Library and add a new widget Bundle. 
+
+![image info](./pictures/installation1.png)
+
+Select "Import Widget Type" and choose the JSON File from the Git Repository and select "Import"
+
+![image info](./pictures/installation2.png) 
+![image info](./pictures/installation3.png)  
  
 <div id="controlwidgets"/>
 
-## 1. Control Widgets
+## 2. Control Widgets
 
 <div id="switch1"/>
 
-### 1.1 Switch 1
+### 2.1 Switch 1
 
 ![image info](./pictures/switch11.png)
 ![image info](./pictures/switch12.png) 
 
 <div id="togglebutton1"/>
 
-### 1.2 Toggle Button 1
+### 2.2 Toggle Button 1
 
 ![image info](./pictures/togglebutton11.png)
 ![image info](./pictures/togglebutton12.png) 
 
 <div id="slider"/>
 
-### 1.3 Slider
+### 2.3 Slider
 
 ![image info](./pictures/slider1.png)
 ![image info](./pictures/slider2.png) 
 
 <div id="thermostat1"/>
 
-### 1.4 Thermostat 1
+### 2.4 Thermostat 1
 
 Widget type: Control Widget
 
@@ -81,7 +107,7 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 <div id="thermostat2"/>
 
-### 1.5 Thermostat 2
+### 2.5 Thermostat 2
 
 Widget type: Control Widget
 
@@ -119,35 +145,35 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 <div id="roundslider"/>
 
-### 1.6 Round Slider
+### 2.6 Round Slider
 
 ![image info](./pictures/roundslider11.png)
 
 <div id="latestvaluewidgets"/>
 
-## 2. Latest Value Widgets
+## 3. Latest Value Widgets
 
 <div id="fluidlevel1"/>
 
-### 2.1 Fluid Level 1
+### 3.1 Fluid Level 1
 
 ![image info](./pictures/fluidlevel11.png)  
 
 <div id="fluidlevel2"/>
 
-### 2.2 Fluid Level 2
+### 3.2 Fluid Level 2
 
 ![image info](./pictures/fluidlevel21.png)  
 
 <div id="lightbulb1"/>
 
-### 2.3 Light Bulb 1
+### 3.3 Light Bulb 1
 
 ![image info](./pictures/lightbulb11.png)  
 
 <div id="gauge1"/>
 
-### 2.4 Gauge 1
+### 3.4 Gauge 1
 
 ![image info](./pictures/gauge11.png)  
 ![image info](./pictures/gauge12.png)  
@@ -155,10 +181,10 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 <div id="staticwidgets"/>
 
-## 3. Static Widgets
+## 4. Static Widgets
 
 <div id="changedashboardstate1"/>
 
-### 3.1 Change Dashboard State 1
+### 4.1 Change Dashboard State 1
 
 ![image info](./pictures/changedashboardstate11.png)  
