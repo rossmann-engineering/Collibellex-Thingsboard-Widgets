@@ -28,3 +28,12 @@ attributeService.saveEntityTimeseries(entity, 'CLIENT_SCOPE', [{key: 'BatteryLev
 }); 
 ``` 
                                     
+### Scale Widgets (Alternative to Zoom)
+
+```html
+<div id="outer" style="transform: scale(1); transform-origin: 0% 0% 0px;">
+```
+
+```javascript
+$('#outer', self.ctx.$container)[0].style.transform =  "scale(" + (self.ctx.width / 190) + ")";
+```
