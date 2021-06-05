@@ -197,6 +197,8 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 <div id="chart1"/>
 
-### 5.1 Chart 1
+### 5.1 Chart 1  
+
+Clean Chart with nice XY-zoom. The zoom can be selected by holding and dragging the left mouse button and reset with the right mouse button.
 
 ![image info](./pictures/chart11.png)  
