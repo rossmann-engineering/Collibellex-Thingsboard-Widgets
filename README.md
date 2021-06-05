@@ -18,6 +18,8 @@
    3.4 [Gauge 1](#gauge1)  
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
+5. [Timeseries](#timeseries)  
+  5.1 [Chart 1](#chart1) 
 
 <div id="general"/>
 
@@ -188,3 +190,13 @@ Step Width, can be 0.1 or 1 - Default: 1
 ### 4.1 Change Dashboard State 1
 
 ![image info](./pictures/changedashboardstate11.png)  
+
+<div id="timeseries"/>
+
+## 5. Timeseries
+
+<div id="chart1"/>
+
+### 5.1 Chart 1
+
+![image info](./pictures/chart11.png)  
