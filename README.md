@@ -16,6 +16,7 @@
    3.2 [Fluid Level 2](#fluidlevel2)  
    3.3 [Light Bulb 1](#lightbulb1)  
    3.4 [Gauge 1](#gauge1)  
+   3.5 [Gauge 2](#gauge2)  
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
@@ -179,6 +180,12 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 ![image info](./pictures/gauge11.png)  
 ![image info](./pictures/gauge12.png)  
+
+<div id="gauge2"/>
+
+### 3.5 Gauge 2
+
+![image info](./pictures/gauge21.png)  
 
 
 <div id="staticwidgets"/>
