@@ -37,3 +37,17 @@ attributeService.saveEntityTimeseries(entity, 'CLIENT_SCOPE', [{key: 'BatteryLev
 ```javascript
 $('#outer', self.ctx.$container)[0].style.transform =  "scale(" + (self.ctx.width / 190) + ")";
 ```
+
+### For Latest Telemetry Widget limit Datasource to 1
+
+https://thingsboard.io/docs/user-guide/contribution/widgets-development/#type-parameters-object
+
+```javascript
+self.typeParameters = function() {
+    return {
+        maxDatasources: 1,
+        maxDataKeys: 1,
+        singleEntity: true
+    };
+}
+```
