@@ -27,6 +27,26 @@ attributeService.saveEntityTimeseries(entity, 'CLIENT_SCOPE', [{key: 'BatteryLev
     console.log(responseBody);
 }); 
 ``` 
+
+### Add Data to Attributes
+
+```javascript
+var attributeService = self.ctx.attributeService;
+        var entityId = self.ctx.datasources[0].entityId;
+        var entityType = self.ctx.datasources[0].entityType;
+        var key = self.ctx.datasources[0].dataKeys[0].name;
+        var entity = {
+        	    entityType: entityType,     //DEVICE
+        	    id: entityId
+        	}
+    
+        	console.log (entityId)
+        	var containerType = $('#containerType  option:selected', self.ctx.$container).val()
+        	
+        attributeService.saveEntityAttributes(entity, 'SERVER_SCOPE', [{key: 'Container type', value: containerType  }]).subscribe((responseBody) => {
+            console.log(responseBody);
+}); 
+``` 
                                     
 ### Scale Widgets (Alternative to Zoom)
 
