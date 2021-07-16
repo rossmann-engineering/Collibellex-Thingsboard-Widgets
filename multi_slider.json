@@ -7,10 +7,10 @@
     "sizeY": 8,
     "resources": [
       {
-        "url": "https://cdn.jsdelivr.net/gh/rossmann-engineering/js-range-slider@f2c68a3b748d8b9348243259068ee18e8834bd6b/app.js"
+        "url": "https://cdn.jsdelivr.net/gh/rossmann-engineering/js-range-slider@e6f1da9eac41be04717c688ccdbde806ec0918f6/app.css"
       },
       {
-        "url": "https://cdn.jsdelivr.net/gh/tadejf84/js-range-slider@master/app.css"
+        "url": "https://cdn.jsdelivr.net/gh/rossmann-engineering/js-range-slider@29e4c4d949635c17eb712f9df6a18dc501746c1c/app.js"
       }
     ],
     "templateHtml": "<div id=\"app\"></div>",
