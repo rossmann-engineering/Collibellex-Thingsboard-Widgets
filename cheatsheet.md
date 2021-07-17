@@ -47,6 +47,26 @@ var attributeService = self.ctx.attributeService;
             console.log(responseBody);
 }); 
 ``` 
+
+
+### Get Attribute Values
+
+```javascript
+    var attributeService = self.ctx.attributeService;
+    var entityId = self.ctx.datasources[0].entityId;
+    var entityType = self.ctx.datasources[0].entityType;
+    var key = self.ctx.datasources[0].dataKeys[0].name;
+    var entity = {
+    	    entityType: entityType,     //DEVICE
+    	    id: entityId
+    	}
+    	console.log(self.ctx);
+    if (self.ctx.datasources[0].type != 'function')
+    {
+    attributeService.getEntityAttributes(entity, 'SHARED_SCOPE', [key]).subscribe((responseBody) => {
+        slider[0].noUiSlider.set( [parseFloat(responseBody[0].value)]);            
+    }); 
+``` 
                                     
 ### Scale Widgets (Alternative to Zoom)
 
