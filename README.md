@@ -18,6 +18,7 @@
    3.3 [Light Bulb 1](#lightbulb1)  
    3.4 [Gauge 1](#gauge1)  
    3.5 [Gauge 2](#gauge2)  
+   3.6 [Gauge 3](#gauge3)  
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
@@ -194,6 +195,43 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 ![image info](./pictures/gauge21.png)  
 
+<div id="gauge3"/>
+
+### 3.6 Gauge 3
+
+![image info](./pictures/gauge31.png)  
+
+Gauge based on Gauge.js
+
+### Parameters:
+
+**Maximum Value**
+
+Maximum Gauge value - Default: 100
+
+**Minimum Value**
+
+Minimum Gauge value - Default: 0
+
+**Unit**
+
+Unit added to the value - Default: °C
+
+**Width**
+
+Line thickness - Default: 0.4
+
+**Min. Color**
+
+Color for Min. Value
+
+**Max. Color**
+
+Color for Max. Value
+
+**Angle**
+
+The span of the gauge arc
 
 <div id="staticwidgets"/>
 
