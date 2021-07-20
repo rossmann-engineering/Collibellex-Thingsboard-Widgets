@@ -163,7 +163,7 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 <div id="switch2"/>
 
-### 2.1 Switch 2
+### 2.8 Switch 2
 
 ![image info](./pictures/switch21.png)
 ![image info](./pictures/switch22.png) 
