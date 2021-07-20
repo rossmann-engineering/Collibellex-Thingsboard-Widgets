@@ -11,7 +11,8 @@
 	2.4 [Thermostat 1](#thermostat1)  
 	2.5 [Thermostat 2](#thermostat2)  
 	2.6 [Round Slider 1](#roundslider1)  
-    2.7 [Multi Slider 1](#multislider1) 
+    2.7 [Multi Slider 1](#multislider1)  
+    2.8 [switch 2](#switch2)  
 3. [Latest Value Widgets](#latestvaluewidgets)  
    3.1 [Fluid Level 1](#fluidlevel1)  
    3.2 [Fluid Level 2](#fluidlevel2)  
@@ -159,6 +160,13 @@ Step Width, can be 0.1 or 1 - Default: 1
 ### 2.7 Multi Slider
 
 ![image info](./pictures/multislider1.png)
+
+<div id="switch2"/>
+
+### 2.1 Switch 2
+
+![image info](./pictures/switch21.png)
+![image info](./pictures/switch22.png) 
 
 <div id="latestvaluewidgets"/>
 
