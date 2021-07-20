@@ -12,7 +12,7 @@
 	2.5 [Thermostat 2](#thermostat2)  
 	2.6 [Round Slider 1](#roundslider1)  
     2.7 [Multi Slider 1](#multislider1)  
-    2.8 [switch 2](#switch2)  
+    2.8 [Switch 2](#switch2)  
 3. [Latest Value Widgets](#latestvaluewidgets)  
    3.1 [Fluid Level 1](#fluidlevel1)  
    3.2 [Fluid Level 2](#fluidlevel2)  
