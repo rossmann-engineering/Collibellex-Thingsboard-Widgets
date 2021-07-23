@@ -57,7 +57,8 @@ Select "Import Widget Type" and choose the JSON File from the Git Repository and
 ### 2.1 Switch 1
 
 ![image info](./pictures/switch11.png)
-![image info](./pictures/switch12.png) 
+![image info](./pictures/switch12.png)  
+![image info](./pictures/switch11.gif)
 
 <div id="togglebutton1"/>
 
