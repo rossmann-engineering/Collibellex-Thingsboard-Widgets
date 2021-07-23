@@ -167,7 +167,8 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 ![image info](./pictures/switch21.png)
 ![image info](./pictures/switch22.png)  
-![image info](./pictures/switch21.gif) 
+![image info](./pictures/switch21.gif)  
+![image info](./pictures/switch22.gif)  
 
 <div id="latestvaluewidgets"/>
 
