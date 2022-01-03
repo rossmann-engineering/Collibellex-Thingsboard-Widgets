@@ -283,3 +283,13 @@ The span of the gauge arc
 Clean Chart with nice XY-zoom. The zoom can be selected by holding and dragging the left mouse button and reset with the right mouse button.
 
 ![image info](./pictures/chart11.png)  
+
+<div id="chart1"/>
+
+### 5.2 Chart 2  
+
+Chart based on echarts. A picture of the chart can be exported using the upper toolbar. Each chart can de either a line chart or a bar chart. Minimum and Maximum indicators and averages values can be 
+
+![image info](./pictures/chart21.png)  
+![image info](./pictures/chart22.png)  
+![image info](./pictures/chart23.png)  
