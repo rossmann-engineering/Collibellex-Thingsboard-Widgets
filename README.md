@@ -22,10 +22,12 @@
    3.4 [Gauge 1](#gauge1)  
    3.5 [Gauge 2](#gauge2)  
    3.6 [Gauge 3](#gauge3)  
+   3.7 [Gauge 4](#gauge4)  
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
-  5.1 [Chart 1](#chart1) 
+  5.1 [Chart 1](#chart1)  
+  5.2 [Chart 2](#chart2)  
 
 <div id="general"/>
 
@@ -230,7 +232,7 @@ Step Width, can be 0.1 or 1 - Default: 1
 
 ![image info](./pictures/gauge31.png)  
 
-Gauge based on Gauge.js
+Gauge based on Gauge.js.  
 
 ### Parameters:
 
@@ -260,7 +262,15 @@ Color for Max. Value
 
 **Angle**
 
-The span of the gauge arc
+The span of the gauge arc.  
+
+<div id="gauge4"/>
+
+### 3.7 Gauge 4
+
+![image info](./pictures/gauge41.png)  
+
+Gauge based on echarts.  
 
 <div id="staticwidgets"/>
 
@@ -284,7 +294,7 @@ Clean Chart with nice XY-zoom. The zoom can be selected by holding and dragging 
 
 ![image info](./pictures/chart11.png)  
 
-<div id="chart1"/>
+<div id="chart2"/>
 
 ### 5.2 Chart 2  
 
