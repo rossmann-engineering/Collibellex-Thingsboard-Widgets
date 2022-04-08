@@ -15,7 +15,7 @@
     2.8 [Switch 2](#switch2)  
     2.9 [Switch 3](#switch3)  
     2.10 [Switch 6](#switch6)  
-    2.11 [Double Slider 1] (#double1)
+    2.11 [Double Slider 1] (#double1) 
 3. [Latest Value Widgets](#latestvaluewidgets)  
    3.1 [Fluid Level 1](#fluidlevel1)  
    3.2 [Fluid Level 2](#fluidlevel2)  
