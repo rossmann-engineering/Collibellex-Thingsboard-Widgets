@@ -27,7 +27,6 @@
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
-  5.1 [Chart 1](#chart1)  
   5.2 [Chart 2](#chart2)  
 
 <div id="general"/>
@@ -294,13 +293,6 @@ Gauge based on echarts.
 
 ## 5. Timeseries
 
-<div id="chart1"/>
-
-### 5.1 Chart 1  
-
-Clean Chart with nice XY-zoom. The zoom can be selected by holding and dragging the left mouse button and reset with the right mouse button.
-
-![image info](./pictures/chart11.png)  
 
 <div id="chart2"/>
 
