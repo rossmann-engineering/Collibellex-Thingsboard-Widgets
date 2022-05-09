@@ -28,6 +28,7 @@
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
   5.2 [Chart 2](#chart2)  
+  5.3 [Weekly Heatmap](#weeklyheatmap)  
 
 <div id="general"/>
 
@@ -303,3 +304,11 @@ Chart based on echarts. A picture of the chart can be exported using the upper t
 ![image info](./pictures/chart21.png)  
 ![image info](./pictures/chart22.png)  
 ![image info](./pictures/chart23.png)  
+
+<div id="weeklyheatmap"/>
+
+### 5.3 Weekly Heatmap
+
+Chart based on echarts. Shows Average values over a week for every Hour
+
+![image info](./pictures/weeklyheatmap11.png)  
