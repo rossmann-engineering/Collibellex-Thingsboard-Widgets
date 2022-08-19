@@ -29,6 +29,7 @@
 5. [Timeseries](#timeseries)  
   5.2 [Chart 2](#chart2)  
   5.3 [Weekly Heatmap](#weeklyheatmap)  
+  5.4 [3D Chart](#3dchart)  
 
 <div id="general"/>
 
@@ -312,3 +313,59 @@ Chart based on echarts. A picture of the chart can be exported using the upper t
 Chart based on echarts. Shows Average values over a week for every Hour
 
 ![image info](./pictures/weeklyheatmap11.png)  
+
+
+<div id="3dchart"/>
+
+### 5.4 3D Chart
+
+Chart based on echarts. Calculates maximum values over a week for every Hour
+
+![image info](./pictures/3dchart11.png)  
+
+### Parameters:
+
+
+**Max. Z-Value**
+
+Maximum Value Z-Axis (vertical) - Default: 25
+
+**Unit Z Axis**
+
+Z-Axis Unit - Default: Pieces
+
+**Y Axis Type**
+
+Type of Y-Axis, Monday to Sunday or Monday to Friday - Default: Monday to Sunday
+
+**X-Axis Type**
+
+Type of X-Axis, 12hrs format ot 24hrs format - Default: 12hrs format
+
+**Y Axis Monday Text**
+
+Text for Y-Axis Monday - Default: Monday
+
+**Y Axis Tuesday Text**
+
+Text for Y-Axis Tuesday - Default: Tuesday
+
+**Y Axis Wednesday Text**
+
+Text for Y-Axis Wednesday - Default: Wednesday
+
+**Y Axis Thursday Text**
+
+Text for Y-Axis Thursday - Default: Thursday
+
+**Y Axis Friday Text**
+
+Text for Y-Axis Friday - Default: Friday
+
+**Y Axis Saturday Text**
+
+Text for Y-Axis Saturday - Default: Saturday
+
+**Y Axis Sunday Text**
+
+Text for Y-Axis Sunday - Default: Sunday
