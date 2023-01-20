@@ -45,7 +45,12 @@ The widget library requires Thingsboard version greater than 3.0. This can be us
 
 ### 1.2 Installation
 
-To install a widget from the Widget library, please login to your Thingsboard installation, or your Thingsboard.cloud account. Then open the Widget Library and add a new widget Bundle. 
+<u>To install a widget from the Widget library</u>:  
+Please login to your Thingsboard installation, or your Thingsboard.cloud account. 
+The complete Bundle is available in the "Bundle" drectory. To import the Bundle, open the Wdget library, choose "Add widget bundle" and select "Import widgets bundle". Drag and drop the file "collibellex.json" into the browser window.
+
+<u>To add a single widget:</u>  
+Open the Widget Library and add a new widget Bundle. 
 
 ![image info](./pictures/installation1.png)
 
