@@ -24,6 +24,7 @@
    3.5 [Gauge 2](#gauge2)  
    3.6 [Gauge 3](#gauge3)  
    3.7 [Gauge 4](#gauge4)  
+   3.8 [Funnel 1](#funnel1)  
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
@@ -285,6 +286,14 @@ The span of the gauge arc.
 ![image info](./pictures/gauge41.png)  
 
 Gauge based on echarts.  
+
+<div id="funnel1"/>
+
+### 3.8 Funnel 1
+
+![image info](./pictures/funnel11.png)  
+
+Funnel chart  
 
 <div id="staticwidgets"/>
 
