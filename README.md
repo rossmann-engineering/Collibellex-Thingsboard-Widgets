@@ -25,6 +25,7 @@
    3.6 [Gauge 3](#gauge3)  
    3.7 [Gauge 4](#gauge4)  
    3.8 [Funnel 1](#funnel1)  
+   3.9 [PV System 1](#pv_system_1)  
 4. [Static Widgets](#staticwidgets)  
   4.1 [Change Dashboard State 1](#changedashboardstate1)  
 5. [Timeseries](#timeseries)  
@@ -295,7 +296,46 @@ Gauge based on echarts.
 
 Funnel chart  
 
+<div id="pv_system_1"/>
+
+### 3.9 PV System 1  
+
+Energy flow animation for Photovoltaik systems. The Telemetry which is assigned for the Grid, Solar, House, Car, Battery can be chosen from the settings menu:
+
+**Grid Value Telemetry**
+
+Power from/to Grid  
+
+**PV Value Telemetry**
+
+Power produced from PV-System  
+
+**Consumption Value Telemetry**
+
+Power consumption from house  
+
+**Car Consumption Telemetry**
+
+Power consumption from car charger  
+
+**Battery Consumption Telemetry**
+
+Power from/to Battery  
+
+**Car Charging State Telemetry**
+
+Car Battery level in %  
+
+**Battery Charging State Telemetry**
+
+Battery level in %  
+
+![image info](./pictures/pvsystem11.png)  
+
+PV System 1  
+
 <div id="staticwidgets"/>
+
 
 ## 4. Static Widgets
 
